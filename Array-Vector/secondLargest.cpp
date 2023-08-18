@@ -13,10 +13,32 @@ int secondLargest(int arr[5]){
     }
     return secL;
 }
-// int sortingLargest(int)
+int sortingLargest(int arr[5]){
+    int temp =0;
+    for (int i = 0; i < 4; i++)
+    {
+        if (arr[i] > arr[i+1])
+        {
+            temp = arr[i];
+            arr[i] = arr[i+1];
+            arr[i+1] = temp;
+            i = -1;
+        }
+    }
+
+    for (int i = 0; i < 5; i++)
+    {
+        cout<<arr[i]<<endl;
+    }
+    
+        cout<<"max No."<<arr[5-1]<<endl;
+    
+    
+}
 int main()
 {
-    int myNumbers[5] = {100, 200, 60, 40, 50};
-    int output = secondLargest(myNumbers);
-    cout<<output;
+    int myNumbers[5] = {8, 3, 6, 4, 5};
+    int output1 = secondLargest(myNumbers);
+    int output2 = sortingLargest(myNumbers);
+    cout<<output2;
 }
