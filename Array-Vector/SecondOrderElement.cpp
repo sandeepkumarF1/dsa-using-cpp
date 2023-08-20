@@ -33,7 +33,7 @@ int main()
     }
 }
 
-// // 🎉 Let's Roast Some Hilarious Coding Myths! 🤣🚀
+// 🎉 Let's Roast Some Hilarious Coding Myths! 🤣🚀
 
 // Hey tech-savvy LinkedIn pals! 💼 Time to put on our myth-busting capes and have a good laugh at these coding rumors. 🦸‍♂️🦸‍♀️ Get ready to LOL! 😂
 
